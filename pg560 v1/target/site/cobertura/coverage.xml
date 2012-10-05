@@ -1,0 +1,609 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.21428571428571427" branch-rate="0.0" lines-covered="27" lines-valid="126" branches-covered="0" branches-valid="2" complexity="1.0701754385964912" version="1.9.4.1" timestamp="1349459209473">
+	<sources>
+		<source>--source</source>
+		<source>c:/dropbox/skole/PG560-12 Enterprise Programmering/f06/pg560 forelesning 6/pg560 v1/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="no.nith.pg560.application" line-rate="0.2222222222222222" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="no.nith.pg560.application.CountryServiceBean" filename="no/nith/pg560/application/CountryServiceBean.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCountryList" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="init" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="no.nith.pg560.application.UserServiceBean" filename="no/nith/pg560/application/UserServiceBean.java" line-rate="0.5" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="13" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getUser" signature="(Ljava/lang/String;)Lno/nith/pg560/domain/User;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="saveUser" signature="(Lno/nith/pg560/domain/User;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="1" branch="false"/>
+						<line number="18" hits="1" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="no.nith.pg560.common" line-rate="0.6363636363636364" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="no.nith.pg560.common.CommonRepository" filename="no/nith/pg560/common/CommonRepository.java" line-rate="0.7777777777777778" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="15" hits="1" branch="false"/>
+								<line number="16" hits="1" branch="false"/>
+								<line number="17" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;Ljavax/persistence/EntityManager;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="1" branch="false"/>
+								<line number="21" hits="1" branch="false"/>
+								<line number="22" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getEntityManager" signature="()Ljavax/persistence/EntityManager;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="29" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="setEntityManager" signature="(Ljavax/persistence/EntityManager;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="0" branch="false"/>
+								<line number="26" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="1" branch="false"/>
+						<line number="16" hits="1" branch="false"/>
+						<line number="17" hits="1" branch="false"/>
+						<line number="20" hits="1" branch="false"/>
+						<line number="21" hits="1" branch="false"/>
+						<line number="22" hits="1" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="no.nith.pg560.common.Pg560PageNavigation" filename="no/nith/pg560/common/Pg560PageNavigation.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+								<line number="16" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="14" hits="0" branch="false"/>
+						<line number="16" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="no.nith.pg560.domain" line-rate="0.2916666666666667" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="no.nith.pg560.domain.Country" filename="no/nith/pg560/domain/Country.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="17" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFullValue" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getId" signature="()J" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="42" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getShortValue" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setFullValue" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setShortValue" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="47" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="no.nith.pg560.domain.User" filename="no/nith/pg560/domain/User.java" line-rate="0.4666666666666667" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="58" hits="5" branch="false"/>
+								<line number="59" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCity" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCountry" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="51" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getId" signature="()J" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="62" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getName" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="35" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getUsername" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="27" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCity" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCountry" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setName" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setUsername" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="31" hits="1" branch="false"/>
+								<line number="32" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="27" hits="0" branch="false"/>
+						<line number="31" hits="1" branch="false"/>
+						<line number="32" hits="1" branch="false"/>
+						<line number="35" hits="1" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="51" hits="1" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="58" hits="5" branch="false"/>
+						<line number="59" hits="5" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="no.nith.pg560.infrastructure" line-rate="0.3793103448275862" branch-rate="1.0" complexity="1.25">
+			<classes>
+				<class name="no.nith.pg560.infrastructure.CountryJpaRepository" filename="no/nith/pg560/infrastructure/CountryJpaRepository.java" line-rate="0.0" branch-rate="1.0" complexity="1.25">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljavax/persistence/EntityManager;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="16" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getContries" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="persist" signature="(Lno/nith/pg560/domain/User;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="no.nith.pg560.infrastructure.UserJpaRepository" filename="no/nith/pg560/infrastructure/UserJpaRepository.java" line-rate="0.7333333333333333" branch-rate="1.0" complexity="1.25">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljavax/persistence/EntityManager;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="16" hits="1" branch="false"/>
+								<line number="27" hits="1" branch="false"/>
+								<line number="28" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getUser" signature="(Ljava/lang/String;)Lno/nith/pg560/domain/User;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="31" hits="2" branch="false"/>
+								<line number="35" hits="2" branch="false"/>
+								<line number="37" hits="2" branch="false"/>
+								<line number="39" hits="2" branch="false"/>
+								<line number="40" hits="1" branch="false"/>
+								<line number="41" hits="1" branch="false"/>
+								<line number="42" hits="1" branch="false"/>
+								<line number="44" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="persist" signature="(Lno/nith/pg560/domain/User;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="1" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="27" hits="1" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="31" hits="2" branch="false"/>
+						<line number="35" hits="2" branch="false"/>
+						<line number="37" hits="2" branch="false"/>
+						<line number="39" hits="2" branch="false"/>
+						<line number="40" hits="1" branch="false"/>
+						<line number="41" hits="1" branch="false"/>
+						<line number="42" hits="1" branch="false"/>
+						<line number="44" hits="2" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="no.nith.pg560.interfaces.web" line-rate="0.0" branch-rate="0.0" complexity="1.0833333333333333">
+			<classes>
+				<class name="no.nith.pg560.interfaces.web.AddUserBean" filename="no/nith/pg560/interfaces/web/AddUserBean.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCity" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCountries" signature="()Ljava/util/List;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="65" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCountry" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="40" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getFirstname" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLastname" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="52" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getUsername" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCity" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCountries" signature="(Ljava/util/List;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCountry" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setFirstname" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setLastname" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setUsername" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="61" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="no.nith.pg560.interfaces.web.AddUserController" filename="no/nith/pg560/interfaces/web/AddUserController.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="16" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addUserEntry" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="navigateToConfirmationPage" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="51" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="navigateToPage1" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="navigateToPage2" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="42" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="navigateToPage3" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="no.nith.pg560.interfaces.web.UserBackingBean" filename="no/nith/pg560/interfaces/web/UserBackingBean.java" line-rate="0.0" branch-rate="0.0" complexity="1.3333333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addUser" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="51" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCurrentUser" signature="()Lno/nith/pg560/domain/User;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="55" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getUsername" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retrieveUser" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="39" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCurrentUser" signature="(Lno/nith/pg560/domain/User;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="59" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setUsername" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="22" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="39" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
